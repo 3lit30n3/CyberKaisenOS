@@ -1,0 +1,15 @@
+[Unit]
+Description=CyberKaisenOS Always-On Defense
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/usr/bin/python3 -c "from CyberKaisenOS import CyberKaisenOS; os = CyberKaisenOS(); os.unlimited_void()"
+ExecStop=/bin/sh -c "echo 'mode=standard' > /proc/phixeo_control"
+
+[Install]
+WantedBy=multi-user.target

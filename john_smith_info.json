@@ -1,0 +1,21 @@
+{
+  "personal_info": {
+    "first_name": "John",
+    "last_name": "Smith",
+    "nickname": "Johnny",
+    "birthdate": "1990-05-15",
+    "pet_name": "Buddy",
+    "partner_name": "Sarah",
+    "child_name": "Emma"
+  },
+  "social_media": {
+    "instagram": "johnsmith90",
+    "facebook": "john.smith.1990",
+    "twitter": "jsmith1990"
+  },
+  "company_info": {
+    "name": "Acme Corp",
+    "position": "Developer",
+    "department": "IT"
+  }
+}
